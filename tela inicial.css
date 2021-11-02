@@ -73,3 +73,21 @@ font-family: 'Aclonica', sans-serif;
 .texto1{
 text-align: center;
 }
+  .grid-item1{
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Archivo Black';
+
+  }
+  .grid-item2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Archivo Black';
+
+}
+.grid-item3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Archivo Black';
+
+}
