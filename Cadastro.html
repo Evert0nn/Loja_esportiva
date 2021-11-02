@@ -4,107 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
     <title>Cadastro</title>
 
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-
-        #titulo{
-            font-family: sans-serif;
-            color: #380861;
-            margin-left: 7%;
-
-        }
-
-        #subtitulo{
-            font-family: sans-serif;
-            color: #380861;
-            margin-left: 10%;
-        }
-
-        fieldset{
-            border: 0;
-        }
-
-        body{
-            background-color: #f0f8ff;
-            font-family: sans-serif;
-            font-size: 1em;
-            color: #59429d;
-            margin-left: 36%;
-            margin-top: 2%;
-            justify-content: center;
-        }
-
-        .campo{
-            margin-bottom: 1em;
-        }
-
-        .campo label{
-            margin-bottom: 0.2em;
-            color: #59429d;
-            display: block;
-        }
-
-        fieldset.grupo .campo{
-            float: left;
-            margin-right: 1em;
-
-        }
-        .campo input[type="text"], .campo input[type="email"], .campo input[type="password"], .campo select{
-            padding: 0.2em;
-            border: 1 px solid #59429d;
-            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-            display: block;
-        }
-
-        .campo select option{
-            padding-right: 1em;
-        }
-
-        .campo input:focus, .campo select:focus {
-            background: #e0e0f8;
-
-        }
-        .botao{
-            font-size: 1.2em;
-            background: #59429d;
-            border: 0;
-            margin-bottom: 1em;
-            color: #ffffff;
-            padding: 0.2em 0.6em;
-            box-shadow: 2px 2px 2px rgba(0, 0,0,0.2);
-            text-shadow:  1px 1px 1px rgba(0, 0,0,0.5);
-            position: absolute;
-            top: 90%;
-            left: 50%;
-            margin-right: -50%;
-            transform: translate(-50, -50);
-
-
-        }
-
-        .botao:hover{
-            background: #ccbbff;
-            box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
-            text-shadow: none;
-        }
-
-        #check{
-            
-        }
-
-
-
-    </style>
 </head>
 <body>
     <div>
-        <h1 id="titulo">Cadastro</h1>
-        <p id="subtitulo">complete suas informações para prosseguir</p>
+        <h2 id="titulo">CADASTRO</h1>
+     <p id="subtitulo">complete suas informações para prosseguir</p>
         <br>
     </div>
     <form>
@@ -113,24 +20,14 @@
                 <br>
                 <label for="nome">Nome</label>
                 <input type="text" name="Nome" id="nome" required>
+            
             </div>
             <div class="campo">
                 <br>
                 <label>Sobrenome</label>
                 <input type="text" name="sobrenome" id="sobrenome" required>
+        
             </div>
-            <div class="campo">
-                <br>
-                <label>Sexo</label>
-                <select>
-                    <option selected disabled value="">Selecione</option>
-                    <option>masculino</option>
-                    <option>feminino</option>
-                    <option>Outro</option>
-                </select>
-            </div>
-        </fieldset>
-
             <div class="campo">
                 <br>
                 <label>Email</label>
@@ -141,27 +38,19 @@
                 <label>Senha</label>
                 <input type="password" name="senha" id="senha">
             </div>
-            <fieldset class="grupo">
-            <div id="check">
+            <div class="campo">
                 <br>
-                <label>Indique a seguir quais produtos você procura:</label><br>
-                <input type="checkbox" id="produto1" name="camisas" value="camisa">
-                <label for="produto1">Camisas</label>
-                <input type="checkbox" id="produto2" name="Calçados" value="calçados">
-                <label for="produto2">Calçados</label>
-                <input type="checkbox" id="produto3" name="bicicletas" value="bicicletas">
-                <label for="produto3">Bicicletas</label>
-                <input type="checkbox" id="produto4" name="bolas" value="bolas">
-                <label for="produto4">Bolas</label>
-                <input type="checkbox" id="produto5" name="vitaminas" value="vitaminas" >
-                <label for="produto5">Vitaminas e suplementos</label>
-                <input type="checkbox" id="produto6" name="equipamentos" value="equipamentos">
-                <label for="produto6">Equipamentos fitness</label>
-
-            </div>
-            <br>
-            <button type="submit" class="botao">concluir cadastro</button>
-        </fieldset>
-    </form>
+                <label>Sexo</label>
+                <select>
+                    <option selected disabled value="">Selecione</option>
+                    <option>MASCULINO</option>
+                    <option>FEMININO</option>
+                    <option>OUTRO</option>
+                </div>
+            </br>
+        </form>
+            </fieldset>
+            <input type="button" value="CONCLUIR" class="button">
+    
 </body>
 </html>
