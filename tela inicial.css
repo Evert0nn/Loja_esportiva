@@ -5,7 +5,7 @@ margin: 0 auto;
 }
 
 body{
-font-family: 'Aclonica', sans-serif;
+font-family: 'Aclonica', sans-serif;;
 font-size: 20px;
 margin-left: 13spx;
 background-color: rgba(19, 18, 18, 0.897);
@@ -31,7 +31,7 @@ background-color: rgba(136, 28, 28, 0.897);
     display: inline;
   
     }
-    .menu li a{color:rgb(255, 251, 251); text-decoration:none; padding:16px 75px; display:inline-block;
+    .menu li a{color:rgb(255, 251, 251); text-decoration:none; padding:15px 70px; display:inline-block;
     }
 .menu li a:hover{
     background:rgba(243, 7, 7, 0.925);
@@ -41,6 +41,7 @@ background-color: rgba(136, 28, 28, 0.897);
      text-shadow:0px 0px 5px rgb(0, 0, 0);
 
 }
+
 .content1{
     width: 80vw;
     height: 80vh;
@@ -53,7 +54,7 @@ background-color: rgba(136, 28, 28, 0.897);
 }     
 .content2{
     width: 80vw;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -88,6 +89,32 @@ text-align: center;
 .grid-item3{
     text-align: center;
     font-size: 25px;
-    font-family: 'Archivo Black';
+    font-family: 'Aivo Black';
 
 }
+.grid-item4{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Aivo Black';
+}
+.grid-item5{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Aivo Black';
+}
+.grid-item6{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Aivo Black';
+}
+.logo{
+    padding-left: 15px;
+    font-size: 17px;
+   float: left;
+   font-family:  'Aclonica', sans-serif;;
+}
+ 
+ 
+  
+
+
