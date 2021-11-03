@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="produtos.css">
+    <title>canisas</title>
+</head>
+<body>
+    <element class="content1">
+        <div class="grid-item1"><p>Camisa do Bayern de Munique</p><img src="imagens/bayern.jpg" width="292px">
+   <figcaption>por R$ 200,00</figcaption>
+<figcaption><button><a href="#">Comprar</a></button>
+</figcaption>
+</div>
+
+         <div class="grid-item2"><p>Camisa do Corinthians Nike</p><img src="imagens/corinthians.jpg"  width="300px">
+<figcaption>por R$ 150,00</figcaption>
+<figcaption><button><a href="#">Comprar</a></button>
+</figcaption>
+</div>
+     <div class="grid-item3"><p>Camisa tradicional do flamengo</p><img src="imagens/flamengo_trad.jpg" width="300px">
+            <figcaption>por R$ 250,00</figcaption>
+<figcaption><button><a href="#">Comprar</a></button>
+</figcaption>
+</div>  
+</element>      
+
+ <element class="content2">
+        <div class="grid-item4"><p>Camisa Ceará roxa</p><img src="imagens/ceara_roxa.jpg" width="292px">
+   <figcaption>por R$ 180,00</figcaption>
+<figcaption><button><a href="#">Comprar</a></button>
+</figcaption>
+</div>
+
+         <div class="grid-item5"><p>Camisa Atlético</p><img src="imagens/atletico_preta.jpg"  width="300px">
+<figcaption>por R$ 150,00</figcaption>
+<figcaption><button><a href="#">Comprar</a></button>
+</figcaption>
+</div>
+     <div class="grid-item6"><p>Camisa PSG branca</p><img src="imagens/psg_branca.jpg" width="300px">
+            <figcaption>por R$ 300,00</figcaption>
+<figcaption><button><a href="#">Comprar</a></button>
+</figcaption>
+</div>  
+</element>
+<element class="content3">
+    <div class="grid-item7"><p>Camisa retrô Corinthians</p><img src="imagens/corinthians_retro.jpg" width="292px">
+<figcaption>por R$ 600,00</figcaption>
+<figcaption><button><a href="#">Comprar</a></button>
+</figcaption>
+</div>
+
+     <div class="grid-item8"><p>Camisa ceará retrô</p><img src="imagens/ceara_retro.jpg"  width="300px">
+<figcaption>por R$ 600,00</figcaption>
+<figcaption><button><a href="#">Comprar</a></button>
+</figcaption>
+</div>
+ <div class="grid-item9"><p>Camisa Flamengo retrô</p><img src="imagens/flamengo_retro.jpg" width="300px">
+        <figcaption>por R$ 600,00</figcaption>
+<figcaption><button><a href="#">Comprar</a></button>
+</figcaption>
+</div>  
+</element> 
+
+</body>
+</html>
