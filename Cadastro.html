@@ -1,56 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="login.css">
-    <title>Cadastro</title>
-
+<title>CADASTRO</title>
+<link rel="stylesheet" type="text/css" href="cadastro.css">
 </head>
 <body>
-    <div>
-        <h2 id="titulo">CADASTRO</h1>
-     <p id="subtitulo">complete suas informações para prosseguir</p>
-        <br>
-    </div>
     <form>
-        <fieldset class="grupo">
-            <div class="campo">
-                <br>
-                <label for="nome">Nome</label>
-                <input type="text" name="Nome" id="nome" required>
-            
-            </div>
-            <div class="campo">
-                <br>
-                <label>Sobrenome</label>
-                <input type="text" name="sobrenome" id="sobrenome" required>
-        
-            </div>
-            <div class="campo">
-                <br>
-                <label>Email</label>
-                <input type="email" name="email" id="sobrenome" required> 
-            </div>
-            <div class="campo">
-                <br>
-                <label>Senha</label>
-                <input type="password" name="senha" id="senha">
-            </div>
-            <div class="campo">
-                <br>
-                <label>Sexo</label>
-                <select>
-                    <option selected disabled value="">Selecione</option>
-                    <option>MASCULINO</option>
-                    <option>FEMININO</option>
-                    <option>OUTRO</option>
-                </div>
-            </br>
-        </form>
-            </fieldset>
-            <input type="button" value="CONCLUIR" class="button">
-    
+        <h3>CADASTRE-SE.</h3>
+        <input type="text" name="Nome" id="nome" placeholder="Nome completo."/>
+        <input type="text" name="Email" placeholder=" Email.."/>
+        <input type="password" name="Senha" placeholder="Senha..">
+        <input type="tel" name="Telefone" placeholder=" NÍmero de telefone.."/>
+        <input type="submit" name="acao" value="Concluir">
+    </form>
+
 </body>
 </html>
