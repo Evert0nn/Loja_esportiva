@@ -8,7 +8,7 @@ body{
 font-family: 'Aclonica', sans-serif;;
 font-size: 20px;
 margin-left: 13spx;
-background-color: rgba(19, 18, 18, 0.897);
+background-color: rgba(255, 255, 255, 0.897);
 color: rgb(255, 255, 255);
 text-align: center;
 
@@ -71,40 +71,49 @@ text-align: center;
       text-align: center;
       font-size: 25px;
       font-family: 'Archivo Black';
+      color:black;
 
   }
   .grid-item2{
     text-align: center;
     font-size: 25px;
     font-family: 'Archivo Black';
+    color:black;
 
 }
 .grid-item3{
     text-align: center;
     font-size: 25px;
     font-family: 'Aivo Black';
+    color:black;
 
 }
 .grid-item4{
     text-align: center;
     font-size: 25px;
     font-family: 'Aivo Black';
+    color:black;
+
 }
 .grid-item5{
     text-align: center;
     font-size: 25px;
     font-family: 'Aivo Black';
+    color: black;
 }
 .grid-item6{
     text-align: center;
     font-size: 25px;
     font-family: 'Aivo Black';
+    color:black;
+
 }
 .logo{
     padding-left: 15px;
     font-size: 17px;
    float: left;
    font-family:  'Aclonica', sans-serif;;
+   color:black;
 }
  
  
