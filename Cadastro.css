@@ -1,114 +1,58 @@
-*{
+* {
+    /* configurações globais do site. */
+
     margin: 0;
     padding: 0;
-
-}
-#titulo{
-   
-
-    margin-left:-3%;
-    margin-bottom: 3%;
-    font-family:"Sans-Serif Product Sans" ;
-    font-size: 90px;
-    text-shadow: -1px -1px 0px #FFF, 
-    -2px 2px 2px #FFF,                    
-     2px 2px 2px #FFF,                  
-     2px 2px 2px #FFF;
-    color: rgb(243, 7, 7);
-
-}
-
-#subtitulo{
-    font-family: 'Aclonica', sans-serif ;
-    margin-left: 5%;
-    margin-top: 2%;
-    font-size: 20px;
+    box-sizing: border-box;
    
 }
-
-fieldset{
-    border:#f8f8f8;
-    
-    
-
-}
-
-body{
-    background-color: rgba(126, 15, 15, 0.897);
-    font-family: sans-serif;
-    font-size: 1em;
-    color:  #f8f8f8;
-    margin-left: 35%;
-    margin-top: 2%;
-    justify-content: center;
-   
+body {
+    background-color: rgba(8, 22, 104, 0.932);
     
 }
-
-.campo{
-    margin-bottom: 1em;
-    margin-top: 10px;
-  
-   
-  
+form{
+    background-color: rgb(253, 253, 253);
+    max-width: 500px;
+    width: 50%;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
 }
-.campo label{
-    margin-bottom: 0.2em;
-    color: #f0f0f0;
-   
-  
-   
+h3{
+    text-align: center;
+    color: black;
+    font-family: 'Bad Script';
+    font-size: 25px;
 }
-
-fieldset.grupo .campo{
-    height: 26px;
-    width: 200px;
-    margin-left: 10%;
-    margin-bottom: 4%;
-    margin-top: 0%;
-    padding: 10px;
+form input[type=text],
+form input[type=password]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
     padding-left: 10px;
-   font-size: 20px;
-
+    margin: 10px 0;
    
-    
 }
-.campo input[type="text"], .campo input[type="email"], .campo input[type="password"],.campo select option[type="radio"]{
-    padding: 0.5em;
-    border: 1 px solid  rgba(136, 28, 28, 0.897);
-    box-shadow:3px 3x 3px rgba(0, 0, 0, 0.2);
-
-
+form input[type=tel]{
+    margin: 5px 0;
+}
+form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: rgba(32, 28, 255, 0.884);
+    color: white;
+    border:0;
+    border-radius: 10px;
+    transition: 1s;
+}
+form input[type=submit]:hover{
+    background-color: rgba(76, 75, 80, 0.712);
+}
+form input[type=password]:focus{
+    outline:0;
 }
 
-.campo input:focus, .campo select:focus {
-    background: rgba(255, 239, 239, 0.897);
-   
-    
-
-}
-.campo select option{
-    padding-right: 2em;
-  
-}
-
-.campo input:focus, .campo select:focus {
- background: #e0e0f8;
-
-}
-.button{
-background:  rgba(136, 28, 28, 0.897);
-color: white;
-border-color: #741700;
-top: 5px;
-height: 50px;
-width: 200px;
-font: bold 15px arial, sans-serif;
-margin: 50px;
-
-
-
-
-
-
-}
