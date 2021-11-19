@@ -1,17 +1,58 @@
 <!DOCTYPE html>
-<head>
-<title>CADASTRO</title>
-<link rel="stylesheet" type="text/css" href="cadastro.css">
-</head>
-<body>
-    <form>
-        <h3>CADASTRE-SE.</h3>
-        <input type="text" name="Nome" id="nome" placeholder="Nome completo."/>
-        <input type="text" name="Email" placeholder=" Email.."/>
-        <input type="password" name="Senha" placeholder="Senha..">
-        <input type="tel" name="Telefone" placeholder=" NÍmero de telefone.."/>
-        <input type="submit" name="acao" value="Concluir">
-    </form>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="cadastro.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="site/sports.png" class="imgLogo"/>
+      <h3 class="formulario__subtitulo">CADASTRE-SE</h3>
+    
+      <label for="nome" class="formulario__label">NOME</label>
+      <input
+        id="nome"
+        type="text"
+        class="formulario__input"
+        placeholder="informe seu nome completo"
+      />
+      <label for="email" class="formulario__label">EMAIL</label>
+      <input
+       type="text"
+       class="formulario__input"
+       placeholder="informe seu email"
+        />
+        <label for="senha" class="formulario__label">SENHA</label>
+      <input
+       id="email"
+       type="password"
+       class="formulario__input"
+       placeholder="crie uma senha"
+        />
 
-</body>
+      <label for="cliente" class="formulario__label">SEXO</label>
+      <select id="empleado" name="listaempleados" class="formulario__input">
+        <option>FEMININO</option>
+        <option>MASCULINO</option>
+      </select>
+
+      <label for="telefone" class="formulario__label">TELEFONE</label>
+      <input
+       type="tel"
+       class="formulario__input"
+       placeholder="digite um número de telefone"
+        />
+
+      <div id="resposta"></div>
+
+      <input type="submit" name="acao" value="Concluir">
+    </form>
+    <script src="plagio.js"></script>
+  </body>
 </html>
