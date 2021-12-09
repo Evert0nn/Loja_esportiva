@@ -1,0 +1,279 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 0px;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+    
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+font-size: 25px;
+margin-left: 13spx;
+background-color:  #000000e7;
+padding: 10px;
+text-align: center;
+
+}
+h2:hover{
+    background:#000000e7;
+    color:rgb(255, 255, 255);
+    -moz-window-shadow:0 3px 10px 0 rgb(255, 255, 255);
+    -webkit-box-align:0 3px 10px 0 rgb(255, 255, 255);
+     text-shadow:0px 0px 5px rgb(202, 202, 202);
+}
+.content1{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 200px;
+    
+}     
+.content2{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 200px;
+
+}
+.content3{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 200px;
+    
+}
+.content4{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 200px;
+    
+}
+.title{
+font-family: 'Aclonica', sans-serif;
+}
+.texto1{
+text-align: center;
+}
+  .grid-item1{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+      
+      
+  
+  }
+  .grid-item2{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+      
+     
+}
+.grid-item3{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+     
+
+}
+.grid-item4{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+     
+
+}
+.grid-item5{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+     
+
+}
+.grid-item6{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+      
+
+}
+.grid-item7{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+     
+}
+.grid-item8{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+}  
+.grid-item9{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+    
+}
+.grid-item10{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+      
+}
+.grid-item11{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+      ;
+}
+.grid-item12{
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px 0px rgba(50, 50, 50, 0.22);
+    padding: 15px;
+    margin: 100px;
+    width: 292x;
+    transition: all 0.3s ease-out;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Signika', sans-serif;
+      color:black;
+      border-left: 2px solid #4895ff;
+      height: 400px;
+      
+}
+.compra{
+    background-color:  rgba(15, 35, 146, 0.932);
+    border: none;
+    color:  rgba(255, 255, 255, 0.932);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 5px;
+    cursor: pointer;
+  
+}
+.compra:hover {
+background-color: #2bb142;
+color: white;
+}
