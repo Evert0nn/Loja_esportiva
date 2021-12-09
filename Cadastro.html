@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="cadastro.css" />
   </head>
   <body>
+    
     <form action="" class="formulario">
-      <img src="site/sports.png" class="imgLogo"/>
+     
       <h3 class="formulario__subtitulo">CADASTRE-SE</h3>
     
       <label for="nome" class="formulario__label">NOME</label>
@@ -21,12 +22,14 @@
         type="text"
         class="formulario__input"
         placeholder="informe seu nome completo"
+        required=""
       />
       <label for="email" class="formulario__label">EMAIL</label>
       <input
        type="text"
        class="formulario__input"
        placeholder="informe seu email"
+       required=""
         />
         <label for="senha" class="formulario__label">SENHA</label>
       <input
@@ -34,6 +37,7 @@
        type="password"
        class="formulario__input"
        placeholder="crie uma senha"
+       required=""
         />
 
       <label for="cliente" class="formulario__label">SEXO</label>
@@ -47,6 +51,7 @@
        type="tel"
        class="formulario__input"
        placeholder="digite um número de telefone"
+       required=""
         />
 
       <div id="resposta"></div>
