@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding:0px;
+}body{
+   background-color: rgb(255, 255, 255);
+   color: black;
+   font-family: 'Poppins', sans-serif;
+}
+input{
+     
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius:30px;
+    border:1px solid black;
+    font-size:16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.1);
+    outline: none;
+}
+div#corpo-form{
+background-color:#ffffff ; 
+    width:450px;
+    margin: 200px auto 0px auto;
+}
+div#corpo-form-cad{
+    background-color:#ffffff ; 
+        width:450px;
+        margin: 80px auto 0px auto;
+}
+    div#corpo-form h1, div#corpo-form-cad h1{
+text-align: center;
+padding: 20px;
+    
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color: #87cceb;
+    border: none;
+    cursor: pointer;
+}
