@@ -1,0 +1,31 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/login.css">
+        <meta name ="viewport" content="width-device-width, initial-scale-1.0">
+        <title>LOGIN</title>
+    </head>
+    <body>
+        <div id="form">
+        <h1>LOGIN</h1>
+
+            <label for="username">usuário</label>
+            <div class="input">
+           <img src="icon.png" width="20px" height="20px">
+            <input type="email" placeholder="digite seu email.."><br><br>
+            <input class="login_input-border"><span>
+           
+             </div>
+
+            <label for="senha">senha</label>
+            <div class="input">
+             <img src="senha.png"  width="20px" height="20px">
+            <input type="password" placeholder="digite sua senha.."><br><br>
+            <input class="login_input-border"><span>
+            </div>
+            <div id="btn">
+            <button type="submit">ENTRAR</button>
+            
+        </form>
+    </body>
+    </html>
